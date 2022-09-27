@@ -19,14 +19,14 @@ const sNumberOfItems = prompt(`How many ${item}(s) are you cooking(max:3)? `)
 
 try {
   let numberOfItems = parseInt(sNumberOfItems)
-  if (numberOfItems = 1) {
+  if ((numberOfItems = 1)) {
     console.log('1')
-  } else if (numberOfItems = 2) {
+  } else if ((numberOfItems = 2)) {
     console.log('2')
-  } else if (numberOfItems = 3) {
+  } else if ((numberOfItems = 3)) {
     console.log('3')
   } else {
-  console.log('4')
+    console.log('4')
   }
 } catch (err) {
   console.log('\nInvalid number!')
